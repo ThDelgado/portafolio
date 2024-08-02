@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/stylo.css">
+</head>
+<body class="roboto-regular">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="  nombre navbar-brand " href="#">Thelma Delgado</a>
+                <div class="" id="navbarNavAltMarkup">
+                    <div id= "boton-formulario"class="navbar-nav ">
+                        <button id= "btn "  class="btn btn-light " type="submit">Contáctame</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+    <section >
+        <div id="formulario" class="container  ">
+            <form id= "esconder container-fluid" class="row g-3">
+                <div class="mb-3 d-flex justify-content-center">
+                    <label for="nombre" >Nombre</label>
+                    <input id="nombre" name="nombre" required type="text"  placeholder="Nombre Apellido" >
+                    <span id="name-error" class="error-message"></span>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <label for="mensaje" >Mensaje</label>
+                    <input id="mensaje" name="mensaje" required type="textarea"  placeholder="Escribe tu mensaje" >
+                    <span id="message-error" class="error-message"></span>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <label for="correo">email</label>
+                    <input id="correo" name ="correo" required  type="email" patterm ="/^[^\s@]+@[^\s@]+\.[^\s@]+$/"  placeholder="e-mail">
+                    <span id="email-error" class="error-message"></span>
+                </div>
+                <div  id="enviar" class="mb-3 d-flex justify-content-center">
+                    <button  class="btn btn-light " type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="intro ">
+        <div class="imgDiv">
+      
+            <img src="./assets/img/logo-corto.jpg" alt="logo" class="img1">
+        </div>
+        
+        <div class="div-Prog">
+            <h1>Lenguages</h1>
+            <div class="imgDivProg">
+                <img src="./assets/img/css.jpg" id="program" alt="logo css">
+                <img src="./assets/img/html.jpg" id="program" alt="logo html">
+                <img src="./assets/img/jsjpg.jpg" id="program" alt="logo js">
+                <img src="./assets/img/rails.jpg" id="program" alt="logo rails">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div>
+            <img id="fondo" src="./assets/img/fondo_codigo.jpg" alt="fondo" >
+        </div>
+    </footer>
+
+
+
+
+<script src="./assets/js/myJs.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
