@@ -12,7 +12,8 @@ function nomostrarFormulario() {
 
 
 document.getElementById("boton-formulario").addEventListener("click", mostrarFormulario);
-
+document.getElementById("boton-formulario").addEventListener("dblclick", nomostrarFormulario);
 document.getElementById("enviar").addEventListener("click", nomostrarFormulario);
+
     
  

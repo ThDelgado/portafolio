@@ -1,4 +1,11 @@
+Final Drilling
+portafolio
+modulo 2
 
 
-jquery 3.7.1
 boostrap  5.3.3
+
+para clonar
+https://github.com/ThDelgado/portafolio.git
+
+
