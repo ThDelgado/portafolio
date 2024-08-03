@@ -77,11 +77,15 @@ body{
   text-align: center;
   justify-content: center;
   padding: 10px;
+  padding-top: 50px;
+  height: 500px;
 
 }
 
 h1{
   font-weight: bold;
+  margin: 20px;
+  text-align: center;
 }
 .imgDivProg .program {
   display: inline-block;
@@ -127,4 +131,33 @@ h1{
   color: red;
   font-size: 0.9em;
   display: block;
+}
+
+#img-trabajo{
+  width: 30%;
+  height: 20%;
+}
+
+.trabajosec{
+  height: 500px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.trabajos{
+  text-align: center;
+}
+
+h2{
+  
+  margin: 20px;
+}
+ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+}
+li{
+  margin: 10px;
+  padding: 10px;
 }
